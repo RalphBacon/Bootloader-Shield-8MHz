@@ -3,7 +3,7 @@
 Easily upload a new bootloader with this shield, including the 8Mhz (no crystal) version
 
 # See YouTube video #119 at https://www.youtube.com/ralphbacon  
-(Direct Link to video: )
+(Direct Link to video: https://youtu.be/BJe-pTgfLLM)
 
 If you're into power saving with the Arduino chip, the ATMega328P, then running at 8Mhz without a crystal (or resonator) is a great step to getting the sleep power consumption down to under 20µA.
 
