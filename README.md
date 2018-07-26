@@ -22,7 +22,7 @@ https://www.aliexpress.com/item/AVR-ISP-Shield-Burning-Bootloader-Programmer-Atm
 
 Once you have loaded this new bootloader onto your Arduino ATmega328P chip it will run from the internal 8Mhz oscillator, _even if you subsequently plug it into an Arduino board with a 16Mhz crystal present_. So don't get the µController chips mixed up!
 
-Can you use this bootloader file for a surface mounted ATmega328P when burning a bootloader in the usual way of using a different Arduino as the ISP? Of course! It's just a description of what the chip is, defined by some special "fuse" bit settings (one of the ways to ensure you never can upload another sketch!).
+Can you use this bootloader file for a surface mounted ATmega328P when burning a bootloader in the usual way of using a different Arduino as the ISP? Of course! It's just a description of what the chip is, defined by some special "fuse" bit settings (which, if you get them wrong, is one of the ways to ensure you never can upload another sketch without re-uploading a new bootloader!).
 
 Blank ATmega328P chips can be had for as little as £1.20 ($1.60) from the Far East (sometimes with a bootloader already loaded, which you can just overwrite).
 
